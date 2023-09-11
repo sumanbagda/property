@@ -1,0 +1,92 @@
+.img-card {
+    padding: 100px 0;
+
+    .left-img {
+        .img-first {
+            img {
+                width: 250px;
+                height: 334px;
+            }
+        }
+
+        .img-two {
+            img {
+                width: 270px;
+                height: 270px;
+            }
+        }
+
+        .img-thre {
+            img {
+                width: 250px;
+                height: 334px;
+            }
+        }
+
+        .img-four {
+            img {
+                width: 250px;
+                height: 334px;
+            }
+        }
+    }
+
+    .right-img {
+        h2 {
+            color: var(--text-gray);
+            font-feature-settings: 'salt' on, 'liga' off;
+            /* Heading / H3 */
+            font-family: Inter;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 54px;
+            /* 135% */
+        }
+
+        p {
+            color: var(--text-gray);
+            font-feature-settings: 'salt' on, 'liga' off;
+            /* Lead / Lead 1 */
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            /* 177.778% */
+
+        }
+
+        .img-button {
+            border-radius: 13px;
+            background: var(--border-one);
+            display: flex;
+            width: 185px;
+            height: 63px;
+            padding: 22px 28px 21px 30px;
+            justify-content: center;
+            align-items: center;
+            transition: 0.9s ease all;
+            display: inline-block;
+
+            &:hover {
+                background: var(--text-gray);
+            }
+
+            a {
+                color: var(--white);
+                text-align: center;
+                font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+                font-family: Inter;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                text-decoration: none;
+             
+                line-height: 20px;
+                /* 111.111% */
+
+            }
+        }
+    }
+}

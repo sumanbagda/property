@@ -1,0 +1,170 @@
+.bg {
+    background-color: var(--bg);
+    padding: 81px 0 61px 0;
+
+    .list-one {
+
+        h2 {
+            color: var(--text-gray);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Inter;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 64px;
+            /* 177.778% */
+            text-transform: capitalize;
+            position: relative;
+
+            &:after {
+                position: absolute;
+                content: "";
+                border-bottom: 3px solid var(--border-one);
+                top: -40px;
+                left: 12px;
+                width: 90px;
+                height: 100px;
+            }
+
+
+
+        }
+
+        .button-list {
+            border-radius: 5px;
+            background: var(--border-one);
+
+            padding: 22px 34px;
+            width: 220px;
+            margin: auto;
+
+
+            a {
+                text-decoration: none;
+                color: var(--white);
+                text-align: center;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+        ul {
+            li {
+                margin: 50px auto;
+                background-color: var(--white);
+                box-shadow: 0px 34.06929px 36.19862px 0px rgba(0, 0, 0, 0.13);
+
+                background: #FFF;
+                box-shadow: 0px 34.06929px 36.19862px 0px rgba(0, 0, 0, 0.13);
+                cursor: pointer;
+                width: 31.33%;
+                border-radius: 26px;
+                flex-shrink: 0;
+
+
+                .card-one {
+
+
+                    img {
+                        width: 401.728px;
+                        height: 283.201px;
+                        flex-shrink: 0;
+                    }
+                }
+
+                .card-text {
+                    padding: 17px 46px 18px 27px;
+
+
+
+                    h3 {
+                        color: #000;
+                        font-family: DM Sans;
+                        font-size: 23px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: -0.642px;
+                        text-transform: capitalize;
+                    }
+
+                    span {
+                        color: #818181;
+                        font-family: DM Sans;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        padding-top: 20px;
+                        display: block;
+                        letter-spacing: -0.642px;
+                        text-transform: capitalize;
+                    }
+
+                    p {
+                        color: var(--border-one);
+                        font-family: DM Sans;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: -0.642px;
+                        text-transform: capitalize;
+                    }
+                }
+
+                .last-card {
+                    padding: 0 46px 0 27px;
+                    border-top: 1px solid var(--border);
+
+                    .left-first {
+                        border-right: 1.065px solid var(--border);
+                        padding: 20px;
+                        text-align: center;
+                        height: 63.88px;
+                    }
+
+                    .center-first {
+                        border-right: 1px solid var(--border);
+                        padding: 20px;
+                        text-align: center;
+                        text-align: center;
+                        height: 63.88px;
+
+                    }
+
+                    .right-first {
+                        padding: 20px;
+                        text-align: center;
+                        height: 63.88px;
+                    }
+
+                }
+
+            }
+        }
+
+
+    }
+
+    .pagination-one {
+        text-align: center;
+        margin: 0 600px;
+
+        .pg {
+            a {
+
+                padding: 20px;
+                color: var(--border-one);
+                transition: 0.9s ease all;
+
+                &:hover {
+                    background: var(--border-one);
+                    color: var(--white);
+                }
+            }
+        }
+    }
+}
